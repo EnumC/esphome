@@ -603,7 +603,7 @@ def get_idf_partition_csv(flash_size):
     partition_csv = f"""\
 otadata,  data, ota,     ,        0x2000,
 phy_init, data, phy,     ,        0x1000,
-app0,     app,  ota_0,   ,        0x{app_partition_size:X},
+app0,     app,  ota_0,   0xD000,  0x{app_partition_size:X},
 app1,     app,  ota_1,   ,        0x{app_partition_size:X},
 nvs,      data, nvs,     ,        0x6D000,
 """
