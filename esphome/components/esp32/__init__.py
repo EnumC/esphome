@@ -569,7 +569,7 @@ async def to_code(config):
 
 APP_PARTITION_SIZES = {
     "2MB": 0x0C0000,  # 768 KB
-    "4MB": 0x1C0000,  # 1792 KB
+    "4MB": 0x1C2000,
     "8MB": 0x3C0000,  # 3840 KB
     "16MB": 0x7C0000,  # 7936 KB
     "32MB": 0xFC0000,  # 16128 KB
